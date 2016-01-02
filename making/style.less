@@ -1,4 +1,4 @@
-@media screen and (min-width:300px) {
+@media screen and (max-width:400px) {
 	html {
 		font-size: 25px;
 	}
@@ -8,11 +8,33 @@
 	.header {
 		.header-lunbo {
 			overflow: hidden;
-			height: 4rem;
+			height: 4rem; 
 			background: red;
 			.swiper-container {
 				height: 100%;
 			}
+		}
+	}
+	.main {
+		overflow: hidden;
+	}
+	.main-items-line-wrapper {
+		overflow: scroll;
+		// width: 100%;
+	}
+	.main-items-line {
+		// overflow: scroll;
+		height: 4rem;
+		width: 40rem;
+		.main-single-item {
+			text-align: center;
+			font-size: 0.4rem;
+			background: blue;
+			height: 3rem;
+			width: 3rem;
+			float: left;
+			margin-right: 2rem;
+			margin-bottom: 2rem;
 		}
 	}
 }
