@@ -1,0 +1,16 @@
+@media screen and (min-width: 300px) {
+  html {
+    font-size: 25px;
+  }
+  body {
+    margin: 0;
+  }
+  .header .header-lunbo {
+    overflow: hidden;
+    height: 4rem;
+    background: red;
+  }
+  .header .header-lunbo .swiper-container {
+    height: 100%;
+  }
+}
