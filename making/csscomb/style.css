@@ -1,0 +1,51 @@
+@media screen and (max-width: 400px)
+{
+    html
+    {
+        font-size: 25px;
+    }
+    body
+    {
+        margin: 0;
+    }
+    .header .header-lunbo
+    {
+        overflow: hidden;
+
+        height: 4rem;
+
+        background: red;
+    }
+    .header .header-lunbo .swiper-container
+    {
+        height: 100%;
+    }
+    .main
+    {
+        overflow: hidden;
+    }
+    .main-items-line-wrapper
+    {
+        overflow: scroll;
+    }
+    .main-items-line
+    {
+        width: 40rem;
+        height: 4rem;
+    }
+    .main-items-line .main-single-item
+    {
+        font-size: .5rem;
+
+        float: left;
+
+        width: 3rem;
+        height: 3rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+
+        text-align: center;
+
+        background: blue;
+    }
+}
