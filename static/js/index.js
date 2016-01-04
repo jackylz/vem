@@ -44,6 +44,7 @@
 	    			},
 	    			success:function(r){
 	    				console.log(r);
+	    				$('.locate-info').text(r.near);
 	    			}
 	    		});
 	    	}
