@@ -25,7 +25,28 @@
 	    }
 
 	    initRem(function(){
-	    	fundDetail.init();
+	    	vem.init();
 	    })
+
+	    vem = {
+
+	    	init:function(){
+	    		vem.getLocation();
+	    	},
+
+	    	getLocation:function(){
+	    		$.ajax({
+	    			url:"http://www.dormstore.cn/getLocation",
+	    			type:"get",
+	    			dataType:"json",
+	    			data:{
+	    				nowLoc:"31,111"
+	    			},
+	    			success:function(r){
+	    				console.log(r);
+	    			}
+	    		});
+	    	}
+	    }
 	});
 })(jQuery);
