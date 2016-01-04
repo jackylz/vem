@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>vem</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>校园智能售货机</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<meta content="telephone=no,email=no" name="format-detection">
-	<link rel="stylesheet" href="http://www.swiper.com.cn/dist/css/swiper.min.css">
-	<link rel="stylesheet" href="./static/style.css">
-	<script type="text/javascript" src="./static/links/swiper.js"></script> 
+	<link rel="icon" href="http://img.wezhan.cn/60218_favicon.ico">
+	<link rel="stylesheet" href="./static/css/reset.css">
+	<link rel="stylesheet" href="./static/css/swiper.min.css">
+	<link rel="stylesheet" href="./static/css/style.css">
+	<script type="text/javascript" src="./static/js/swiper.js"></script>
+	<script type="text/javascript" src="./static/js/jquery.js"></script> 
 </head>
 <body>
+	<div class="locate">
+		<i></i>
+		<div class="locate-info">读取定位信息中...</div>
+	</div>
 	<div class="header">
 		<!-- Swiper --> 
 		<div class="header-lunbo">
@@ -33,43 +40,31 @@
 			</div> 
 		</div>
 	</div>
+
+	<ul class="intro">
+		<li>
+			<i class="i-he"></i>
+			<div class="desc">灵活高效</div>
+		</li>
+		<li>
+			<i class="i-pay"></i>
+			<div class="desc">便捷支付</div>
+		</li>
+		<li>
+			<i class="i-locate"></i>
+			<div class="desc">实时定位</div>
+		</li>
+		<li class="last">
+			<i class="i-user"></i>
+			<div class="desc">用户第一</div>
+		</li>
+	</ul>
+
 	<div class="main">
-		<div class="main-items">
-			<div class="main-items-line-wrapper">
-				<div class="main-items-line">
-					<div class="main-single-item">
-						<div class="main-data-image">
-							<img src="http://d04.res.meilishuo.net/pic/_o/c9/46/a4467f4caa5bde5535e98b98965f_200_200.c1.jpg?frm=out_pic" width="60%" height="60%" alt="">
-						</div>
-						<div class="words">
-							我是商品1 <br>
-							价格 20 <br>
-							货号 2121
-						</div>
-					</div>
-					<div class="main-single-item">
-
-					</div>
-					<div class="main-single-item">
-					</div>
-					<div class="main-single-item">
-					</div>
-					<div class="main-single-item">
-					</div>
-					<div class="main-single-item">
-					</div>
-					<div class="main-single-item">
-					</div>
-					<div class="main-single-item">
-					</div>
-
-				</div>
-			</div>
-			
-		</div>
+		
 	</div>
 	
-	<script>
+	<script type="text/javascript">
 		var swiperH = new Swiper('.swiper-container-h', {
 			pagination: '.swiper-pagination-h',
 			paginationClickable: true,

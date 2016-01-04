@@ -1,0 +1,86 @@
+.header .header-lunbo {
+  overflow: hidden;
+  height: 8rem;
+  background: red;
+}
+.header .header-lunbo .swiper-container {
+  height: 100%;
+}
+.intro {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  margin-top: 1rem;
+}
+.intro li {
+  display: block;
+  height: 5rem;
+  width: 25%;
+  float: left;
+}
+.intro li.last {
+  float: right;
+}
+.intro li i {
+  display: block;
+  width: 3.7rem;
+  height: 3.7rem;
+  margin: 0 auto;
+}
+.intro li i.i-he {
+  background: url(../imgs/intro_he.jpg) no-repeat;
+  background-size: 3.6rem 3.6rem;
+}
+.intro li i.i-locate {
+  background: url(../imgs/intro_locate.png) no-repeat;
+  background-size: 3.6rem 3.6rem;
+}
+.intro li i.i-user {
+  background: url(../imgs/intro_user.jpg) no-repeat;
+  background-size: 3.6rem 3.6rem;
+}
+.intro li i.i-pay {
+  background: url(../imgs/intro_pay.jpg) no-repeat;
+  background-size: 3.6rem 3.6rem;
+}
+.intro li .desc {
+  display: block;
+  width: 3.6rem;
+  height: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-top: .3rem;
+}
+.locate {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 2.4rem;
+  box-sizing: border-box;
+  padding-left: 1.2rem;
+  background: #84BF5F;
+}
+.locate i {
+  display: block;
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  top: .6rem;
+  left: 6rem;
+  background: url(http://www.dormstore.cn/static/imgs/locate.png) no-repeat;
+}
+.locate .locate-info {
+  display: block;
+  width: 8rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
