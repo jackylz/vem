@@ -33,7 +33,7 @@
 .header .header-lunbo {
   overflow: hidden;
   height: 2rem;
-  background: red;
+  /*background: red;*/
 }
 .header .header-lunbo .swiper-container {
   height: 100%;
