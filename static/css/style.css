@@ -1,3 +1,38 @@
+.toast {
+  position: fixed;
+  height: 2rem;
+  width: 4rem;
+  box-sizing: border-box;
+  padding: 0 .6rem;
+  border-radius: 6px;
+  z-index: 10001;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -1rem;
+  margin-left: -2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: .4rem;
+  color: #fff;
+  display: table;
+  background: #000;
+  opacity: .8;
+  filter: alpha(opacity=80);
+}
+.toast p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: .24rem;
+}
+.header .header-lunbo {
+  overflow: hidden;
+  height: 2rem;
+  background: red;
+}
+.header .header-lunbo .swiper-container {
+  height: 100%;
+}
 .locate {
   display: block;
   position: relative;
@@ -29,14 +64,6 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-.header .header-lunbo {
-  overflow: hidden;
-  height: 2rem;
-  background: red;
-}
-.header .header-lunbo .swiper-container {
-  height: 100%;
 }
 .intro {
   display: block;
@@ -114,6 +141,16 @@
   height: 2rem;
   margin-bottom: .1rem;
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.main .goods-box i.icon-checked {
+  display: block;
+  position: absolute;
+  width: .32rem;
+  height: .32rem;
+  right: .1rem;
+  top: .1rem;
+  background: url(../imgs/icon_right.png) no-repeat;
 }
 .main .goods-box .g-img {
   display: block;
@@ -166,7 +203,11 @@ body {
   width: 25%;
   height: 100%;
   line-height: .7rem;
-  background: #84BF5F;
+  background: #bbb;
   font-size: .3rem;
   color: #fff;
+  cursor: pointer;
+}
+.bottom .b-buy-btn.enable {
+  background: #84BF5F;
 }
